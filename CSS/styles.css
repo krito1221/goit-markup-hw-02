@@ -1,0 +1,96 @@
+:root{
+--primary-color:#2196F3;
+--secondary-color:#212121;
+--phone-color:#757575;
+--background-hero:#2F303A;
+--hero-color:#FFFFFF;
+}
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 26px; font-weight: 700; line-height: 1.19;
+    text-decoration: none; color:var(--primary-color);
+}
+body {
+    font-family: 'Roboto', sans-serif; color: var(--secondary-color);
+}
+.list {
+    list-style: none;
+}
+.navigation-links :hover {
+    color: blue;
+}
+
+.navigation {
+    font-size: 14px; font-weight: 500; line-height: 1.14;
+    color: var(--secondary-color); text-decoration: none;
+}
+.header-contact:hover {
+    color: blue;
+}
+.current {
+    color:var(--primary-color);
+}
+.contacts {
+    font-size: 14px; font-weight: 500; line-height: 1.14;
+}
+.header-contact {
+    color: var(--phone-color); text-decoration: none;
+}
+.hero  {
+    background-color: var(--background-hero)
+}
+.hero h1 {
+    font-style: normal; font-weight: 900; font-size: 44px; line-height: 1.36; text-align: center; 
+color: var(--hero-color);
+}
+.button-hero {
+    background-color: var(--primary-color); color: var(--hero-color); font-weight: 700; font-size: 16px;  font-style: bold; line-height: 1.87; cursor: pointer;
+}
+.button-hero:hover {
+    background-color: var(--background-hero);
+}
+.beneficios > h3 {
+    color: var(--secondary-color); 
+    font-weight: 700; font-size: 14px; line-height: 1.14;
+}
+.beneficios p {
+    color: var(--phone-color); 
+    font-weight: 400; font-size: 14px; line-height: 1.71;
+}
+.services h2 {
+    font-weight: 700; font-size: 36px; line-height: 1.16;
+}
+.team h2 {
+    font-weight: 700; font-size: 36px; color: var(--secondary-color); line-height: 1.16;
+}
+.team h3 {
+    font-weight: 500; font-size: 16px; color: var(--secondary-color); line-height: 1.18;
+}
+.team p {
+    font-weight: 400; font-size: 16px; color: var(--phone-color); line-height: 1.18;
+}
+.footer {
+    background-color: var(--background-hero)
+}
+.address {
+    color: var(--hero-color); font-style: normal;text-decoration: none; line-height: 1.71;
+}
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal; text-decoration: none; line-height: 1.71;
+}
+.projects h3 {
+    font-weight: 700; font-size: 18; line-height: 2;
+    color: var(--secondary-color);
+}
+.projects p {
+    font-weight: 400; font-size: 16; line-height: 1.87;
+    color: var(--phone-color);
+}
+.link-project {
+    font-size: 16px; font-weight: 500; line-height: 1.62;
+    color: var(--secondary-color); cursor: pointer;
+}
+.button-projects :hover {
+    color: var(--primary-color);
+}
