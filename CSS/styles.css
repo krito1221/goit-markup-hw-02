@@ -17,7 +17,7 @@ body {
     list-style: none;
 }
 .navigation-links :hover {
-    color: blue;
+    color: var(--primary-color);
 }
 
 .navigation {
@@ -25,7 +25,7 @@ body {
     color: var(--secondary-color); text-decoration: none;
 }
 .header-contact:hover {
-    color: blue;
+    color: var(--primary-color);
 }
 .current {
     color:var(--primary-color);
@@ -92,5 +92,10 @@ color: var(--hero-color);
     color: var(--secondary-color); cursor: pointer;
 }
 .button-projects :hover {
-    color: var(--primary-color);
+    color: var(--hero-color);
+    background-color: var(--primary-color);
+}
+.active-button {
+    color: var(--hero-color);
+    background-color: var(--primary-color);
 }
